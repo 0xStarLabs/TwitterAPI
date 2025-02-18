@@ -7,6 +7,7 @@
 ### A Modern, Feature-Rich Go SDK for Twitter API Automation
 
 [![Stars](https://img.shields.io/github/stars/0xStarLabs/TwitterAPI?style=for-the-badge&logo=github&color=yellow)](https://github.com/0xStarLabs/TwitterAPI/stargazers)
+[![Watchers](https://img.shields.io/github/watchers/0xStarLabs/TwitterAPI?style=for-the-badge&logo=github)](https://github.com/0xStarLabs/TwitterAPI/watchers)
 ![Twitter API](https://img.shields.io/badge/Twitter-API-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)
 ![Go Version](https://img.shields.io/badge/Go-%3E%3D%201.23-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
