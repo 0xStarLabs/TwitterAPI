@@ -1,13 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/0xStarLabs/TwitterAPI/main/.github/logo.png" width="200" height="200">
+<img src="https://raw.githubusercontent.com/0xStarLabs/TwitterAPI/public/X_logo.jpg" width="200" height="200">
 
 # 🐦 Twitter API SDK
 
 ### A Modern, Feature-Rich Go SDK for Twitter API Automation
 
 [![Stars](https://img.shields.io/github/stars/0xStarLabs/TwitterAPI?style=for-the-badge&logo=github&color=yellow)](https://github.com/0xStarLabs/TwitterAPI/stargazers)
-[![Go Report Card](https://img.shields.io/badge/go%20report-A+-brightgreen.svg?style=for-the-badge)](https://goreportcard.com/report/github.com/0xStarLabs/TwitterAPI)
 ![Twitter API](https://img.shields.io/badge/Twitter-API-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)
 ![Go Version](https://img.shields.io/badge/Go-%3E%3D%201.23-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
