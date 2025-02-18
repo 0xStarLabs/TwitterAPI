@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/0xStarLabs/TwitterAPI/public/X_logo.jpg" width="200" height="200">
+<img src="assets/X_logo.jpg" width="200" height="200">
 
 # 🐦 Twitter API SDK
 
