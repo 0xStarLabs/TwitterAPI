@@ -31,6 +31,8 @@ A powerful Go SDK that provides seamless interaction with Twitter's API. Built w
   - Proxy support
 - 👥 **User Interactions**
   - Follow/Unfollow users
+  - Like/Retweet tweets
+  - Vote on polls
   - Get user information
   - Handle both usernames and user IDs
 - 📝 **Content Creation**
