@@ -105,6 +105,7 @@ func (t *Twitter) IsValid() (*AccountInfo, *models.ActionResponse) {
 		utils.HeaderPair{Key: "x-csrf-token", Value: t.Account.Ct0},
 		utils.HeaderPair{Key: "x-twitter-active-user", Value: "yes"},
 		utils.HeaderPair{Key: "x-twitter-auth-type", Value: "OAuth2Session"},
+		utils.HeaderPair{Key: "user-agent", Value: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"},	   
 	)
 
 	// Make the request
