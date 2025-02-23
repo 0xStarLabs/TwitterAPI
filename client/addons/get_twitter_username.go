@@ -49,6 +49,7 @@ func GetTwitterUsername(httpClient tlsClient.HttpClient, cookieClient *utils.Coo
 			utils.HeaderPair{Key: "referer", Value: "https://twitter.com/"},
 			utils.HeaderPair{Key: "x-csrf-token", Value: csrfToken},
 			utils.HeaderPair{Key: "x-twitter-active-user", Value: "no"},
+			utils.HeaderPair{Key: "user-agent", Value: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"},
 		)
 
 		bodyBytes, resp, err := utils.MakeRequest(httpClient, reqConfig)

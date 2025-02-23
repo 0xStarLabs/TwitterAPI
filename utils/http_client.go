@@ -67,6 +67,7 @@ func DefaultConfig() RequestConfig {
 			{Key: "sec-fetch-dest", Value: "empty"},
 			{Key: "sec-fetch-mode", Value: "cors"},
 			{Key: "sec-fetch-site", Value: "same-origin"},
+			{Key: "user-agent", Value: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"},
 		},
 	}
 }
