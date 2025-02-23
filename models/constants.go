@@ -25,6 +25,7 @@ const (
 var (
 	ErrAccountLocked = errors.New("account is temporarily locked")
 	ErrAuthFailed    = errors.New("authentication failed")
+	ErrInvalidToken  = errors.New("invalid token")
 	ErrUnknown       = errors.New("unable to complete operation")
 )
 
@@ -38,6 +39,7 @@ const (
 	StatusNotFound                 // Tweet/User not found
 	StatusRateLimited              // Rate limit exceeded
 	StatusAuthError                // Authentication error
+	StatusInvalidToken             // Invalid token
 	StatusUnknown                  // Unknown error
 )
 

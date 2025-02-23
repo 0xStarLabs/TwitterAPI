@@ -84,8 +84,8 @@ func GetTwitterUsername(httpClient tlsClient.HttpClient, cookieClient *utils.Coo
 			return "", newCsrfToken, models.ErrAccountLocked, models.StatusLocked
 
 		case strings.Contains(string(bodyBytes), "Could not authenticate you"):
-			logger.Error("Unknown | Could not authenticate you")
-			return "", newCsrfToken, models.ErrAuthFailed, models.StatusAuthError
+			logger.Error("Unknown | Could not authenticate you. Token is invalid!")
+			return "", newCsrfToken, models.ErrInvalidToken, models.StatusAuthError
 
 		default:
 			logger.Error("Unknown | Unknown response: %s", string(bodyBytes))

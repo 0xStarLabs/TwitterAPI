@@ -72,6 +72,8 @@ func (t *Twitter) init() error {
 				return fmt.Errorf("account is locked: %w", err)
 			case models.StatusAuthError:
 				return fmt.Errorf("authentication failed: %w", err)
+			case models.StatusInvalidToken:
+				return fmt.Errorf("invalid token: %w", err)
 			case models.StatusUnknown:
 				t.Logger.Error("Unknown error getting username: %s", err)
 				continue
